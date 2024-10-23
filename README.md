@@ -23,8 +23,8 @@ This repository contains a Genetic Algorithm (GA) based approach for DNA compres
 ### Installation ###
 
 <pre>
-git clone https://github.com/MuhammadzohaibNawaz/GA-MDL-DNA-Compression.git
-cd GA-MDL-DNA-Compression
+git clone https://github.com/MuhammadzohaibNawaz/GAG.git
+cd GAG
 </pre>
 
 ### Build the Project ###
@@ -40,7 +40,7 @@ To run the compression algorithm, modify the DNAClassification class according t
   2. **Adjust Parameters:** Change parameters such as generations, and topSubsequences (this is given as input when running the code) based on your requirements.
   3. **Run the Program:** Execute the main method to start the compression process.
 <pre>
-  java -cp target/GA-MDL-DNA-Compression-1.0-SNAPSHOT.jar dna.GAG
+  java -cp target/GAG-1.0-SNAPSHOT.jar dna.GAG
 </pre>
 
 
