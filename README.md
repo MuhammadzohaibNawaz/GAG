@@ -30,7 +30,6 @@ cd GA-MDL-DNA-Compression
 ### Build the Project ###
 
 <pre>
-  bash
   mvn clean install
 </pre>
 
