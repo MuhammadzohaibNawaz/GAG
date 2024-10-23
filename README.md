@@ -20,9 +20,10 @@ This repository contains a Genetic Algorithm (GA) based approach for DNA compres
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/MuhammadzohaibNawaz/GA-MDL-DNA-Compression.git
-cd GA-MDL-DNA-Compression
+### Installation ###
 
-
-### Build the Project
+<pre>
+git clone https://github.com/cobilab/jarvis2.git
+cd jarvis2/src/
+make
+</pre>
