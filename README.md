@@ -27,3 +27,10 @@ git clone https://github.com/cobilab/jarvis2.git
 cd jarvis2/src/
 make
 </pre>
+#### Run JARVIS2 ####
+
+Run JARVIS2 using level 9:
+
+<pre>
+./JARVIS2 -v -l 9 File.seq
+</pre>
