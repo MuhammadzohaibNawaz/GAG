@@ -27,7 +27,7 @@ import java.util.Set;
  *
  * @author zohaib
  */
-public class GAG {
+public class GMG {
 
     /**
      * @param args the command line arguments
