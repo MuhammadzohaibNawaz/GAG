@@ -23,15 +23,16 @@ This repository contains a Genetic Algorithm (GA) based approach for DNA compres
 ```bash
 git clone https://github.com/yourusername/GA-MDL-DNA-Compression.git
 cd GA-MDL-DNA-Compression
-Build the Project
+
+### Build the Project
 bash
-Copy code
 mvn clean install
-Usage
+
+###Usage
 To run the compression algorithm, modify the DNAClassification class according to your input files and parameters.
 
 Set Dataset: Modify the DS variable to select your dataset.
-Adjust Parameters: Change parameters such as longestPattern, generations, and topSubsequences based on your requirements.
+Adjust Parameters: Change parameters such as  generations, and topSubsequences (this is given as input when running the code) based on your requirements.
 Run the Program: Execute the main method to start the compression process.
 bash
 Copy code
