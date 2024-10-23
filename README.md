@@ -55,3 +55,29 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 1. The development of this compression algorithm was inspired by the need for efficient genomic data storage.
 2. Thanks to the BioPython library for its tools and resources for handling biological data.
 
+
+### Installation ###
+
+<pre>
+git clone https://github.com/cobilab/jarvis2.git
+cd jarvis2/src/
+make
+</pre>
+
+### Execution ###
+
+#### Run JARVIS2 ####
+
+Run JARVIS2 using level 9:
+
+<pre>
+./JARVIS2 -v -l 9 File.seq
+</pre>
+
+### Parameters ###
+
+To see the possible options type
+<pre>
+./JARVIS2 -h
+</pre>
+
