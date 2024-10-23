@@ -262,7 +262,18 @@ public class GAG {
                 }
 
                 // Assign characters other than A, C, T, G for the best sequences
-                char[] codes = "BDEFHIJKLMNOPQRSUVWXYZ1234567890.,;bdefhjiklmnopqruvwxyz@#$%^&-+".toCharArray();  // Use these for encoding
+                // Create a StringBuilder to hold characters
+                StringBuilder codeBuilder = new StringBuilder();
+
+                // Iterate through all printable ASCII characters
+                for (char c = 32; c < 127; c++) { // From ASCII 32 to 126
+                    // Append characters except for A, C, T, and G
+                    if (c != 'A' && c != 'C' && c != 'T' && c != 'G') {
+                        codeBuilder.append(c);
+                    }
+                }
+                // Convert the StringBuilder to a char array
+                char[] codes = codeBuilder.toString().toCharArray();
 
                 // Ensure the best sequence is unique and does not overlap with already stored sequences
                 if (maxOverallOccurrences != 0 && bestDnaString.length() > maxEntryLength) {
