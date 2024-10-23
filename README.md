@@ -23,3 +23,6 @@ This repository contains a Genetic Algorithm (GA) based approach for DNA compres
 ```bash
 git clone https://github.com/MuhammadzohaibNawaz/GA-MDL-DNA-Compression.git
 cd GA-MDL-DNA-Compression
+
+
+### Build the Project
