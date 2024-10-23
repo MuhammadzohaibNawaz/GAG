@@ -27,7 +27,7 @@ git clone https://github.com/MuhammadzohaibNawaz/GA-MDL-DNA-Compression.git
 cd GA-MDL-DNA-Compression
 </pre>
 
-####Build the Project####
+###Build the Project###
 <pre>
   bash
   mvn clean install
