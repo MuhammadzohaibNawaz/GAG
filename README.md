@@ -43,14 +43,15 @@ To run the compression algorithm, modify the DNAClassification class according t
   java -cp target/GA-MDL-DNA-Compression-1.0-SNAPSHOT.jar com.example.DNAClassification
 </pre>
 
-#### Results 
+
+## Results 
 The performance of the GA-based MDL compression method is benchmarked against established reference-free compression methods:
 1. **Compression Ratios:** Detailed comparisons with JARVIS2 and GeCo3 are provided.
 2. **Compression Time:** Analysis of the time taken for compression processes.
 
-#### Contributions ###
+## Contributions 
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
 
-#### Acknowledgments ####
+## Acknowledgments 
 1. The development of this compression algorithm was inspired by the need for efficient genomic data storage.
 2. Thanks to the BioPython library for its tools and resources for handling biological data.
