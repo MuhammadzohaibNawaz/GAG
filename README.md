@@ -1,4 +1,4 @@
-# GAG ==> GA-MDL DNA Compression
+# GMG ==> GA-MDL DNA Compression
 
 ## Overview
 
